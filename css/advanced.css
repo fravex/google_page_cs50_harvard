@@ -133,3 +133,11 @@ h2{
     background-color: #357ae8;
     border: 1px solid #2f5bb7;
 }
+
+@media (max-width: 600px) {
+    .information_find, .instructions {
+        display: none;
+    }
+
+}
+    
