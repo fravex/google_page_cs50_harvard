@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/advanced.css">
+    <link rel="stylesheet" href="css/images.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:display=swap" rel="stylesheet">
+    <title>Google Search</title>
+</head>
+
+<body>
+    <header>
+        <ul>
+            <img class="google_logo" src="img/google_logo.png" alt="Google logo">
+            <div class="link_up_rigth">
+                <li><a href="images.html">Google Images</a></li>
+                <li><a href="search.html">Google Search</a></li>
+            </div>
+        </ul>
+    </header>
+    <main>
+        <div class="title">
+            <h2>Advanced Search</h2>
+        </div>
+        <div class="find_options">
+            <div class="find_subtitle">
+                <p class="find_title">Find pages with…</p>
+                <div style="width: 588px;"></div>
+                <p>To do this in the search box.</p>
+            </div>
+            <form action="https://www.google.com/search?">
+                <input type="hidden" name="hl" value="en">
+                <div class="find_option">
+                    <label class="label_find" for="all_the_words">all these words:</label>
+                    <input class="input_find" type="text" name="as_q" id="all_the_words">
+                    <p class="information_find">Type the important words: tri-colour rat terrier</p>
+                </div>
+                <div class="find_option">
+                    <label class="label_find" for="this_exact">this exact word or phrase:</label>
+                    <input class="input_find" type="text" name="as_epq" id="this_exact">
+                    <p class="information_find">Put exact words in quotes: "rat terrier"</p>
+                </div>
+                <div class="find_option">
+                    <label class="label_find" for="any_words">any of these words:</label>
+                    <input class="input_find" type="text" name="as_oq" id="any_words">
+                    <p class="information_find">Type OR between all the words you want: miniature OR standard</p>
+                </div>
+                <div class="find_option">
+                    <label class="label_find" for="none_words">none of these words:</label>
+                    <input class="input_find" type="text" name="as_eq" id="none_words">
+                    <p class="information_find">Put a minus sign just before words that you don't want: -rodent, -"Jack Russell"</p>
+                </div>
+                <div class="find_option">
+                    <div class="label_find"></div>
+                    <input class="button_adv_search" type="submit" value="Advanced Search">
+                </div>
+            </form>
+        </div>
+    </main>
+</body>
+</html>

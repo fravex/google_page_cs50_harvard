@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/images.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:display=swap" rel="stylesheet">
+    <title>Google Images Search</title>
+</head>
+
+<body>
+
+    <header>
+        <ul>
+            <li><a href="search.html">Google Search</a></li>
+            <li><a href="advanced_search.html">Google Advanced Search</a></li>
+        </ul>
+    </header>
+    <main>
+        <div class="links">
+            <img class="google_logo" src="img/google_logo.png" alt="Google logo">
+            <span class="images_text">images</span>
+        </div>
+        <form action="https://www.google.com/search?">
+            <input id=search_input type="text" name="q">
+            <img class="magnifier" src="img/lens.svg" alt="">
+
+            <input  name="tbm" value="isch" hidden>
+            <div class="search_buttons">
+                <input id=search_button type="submit" value="Google Search">
+                <input id=search_button type="submit" value="I'm Feeling Lucky">
+            </div>
+        </form>
+        <div class="other_language">
+            <p>Google offered in:</p><a href="https://www.google.com/setprefs?sig=0_mByetNQyhs2dkTSy_G8PVHLx4o4%3D&hl=pt-BR&source=homepage&sa=X&ved=0ahUKEwjhz4mgn_31AhW5lJUCHWnuAlEQ2ZgBCBA">Português (Brasil)</a>
+        </div>
+    </main>
+</body>
+
+</html>
