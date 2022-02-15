@@ -98,3 +98,15 @@ main>form{
 .other_language a{
     color: blue;
 }
+
+
+@media (max-width: 420px) {
+
+    .google_logo{
+        width: 200px;
+    }
+
+    .images_text{
+        font-size: .8rem;
+    }
+}
