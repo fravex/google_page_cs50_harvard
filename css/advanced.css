@@ -113,6 +113,7 @@ h2{
 }
 
 .information_find{
+    width: 200px;
     margin-left: 1rem;
     color: #666;
     font-family: monospace;
