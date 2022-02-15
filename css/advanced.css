@@ -134,10 +134,24 @@ h2{
     border: 1px solid #2f5bb7;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 420px) {
     .information_find, .instructions {
         display: none;
     }
+    
+    main{
+        margin-left: -25px;
+    }
 
+    .input_find{
+        width: 170px;
+    }
+
+    .find_option{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        width: 100%;
+    }
 }
     
