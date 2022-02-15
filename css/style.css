@@ -19,7 +19,9 @@ a{
     text-decoration: none;
     color: rgba(0,0,0,0.87);
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 14.4px;
 }
+
 
 a:hover{
     text-decoration: underline;
@@ -50,7 +52,6 @@ main>form{
 #search_input{
     width: 568px;
     height: 28px;
-    font-weight: 300;
     border: 1px solid rgba(177, 177, 177, 0.514);
     border-radius: 20px;
     padding: 10px 20px 10px 40px;
@@ -115,7 +116,6 @@ main>form{
     #search_input{
         width: 280px;
         height: 1rem;
-        font-weight: 300;
         border: 1px solid rgba(177, 177, 177, 0.514);
         border-radius: 30px;
         padding: 10px 20px 10px 40px;
